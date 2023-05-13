@@ -67,28 +67,28 @@ const Contact = () => {
       <Title title="Get" subTitle="in Touch" />
       <div className="p-6 flex justify-between gap-20 max-sm:block">
         <div className="w-1/2 max-sm:w-full">
-          <p className="flex justify-between w-full max-sm:text-sm text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc]  py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
               Address:
             </span>
             Oradea, Romania
           </p>
-          <p className="flex justify-between w-full max-sm:text-sm text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
               Phone:
             </span>
             0733025345
           </p>
         </div>
         <div className="w-1/2 max-sm:w-full">
-          <p className="flex justify-between w-full max-sm:text-sm text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1  rounded-md flex items-center justify-center">
               Email:
             </span>
             gaborf703@gmail.com
           </p>
-          <p className="flex justify-between w-full max-sm:text-sm text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
               Work status:
             </span>
             Available
@@ -106,7 +106,7 @@ const Contact = () => {
             id="form"
             action="https://getform.io/f/6e9101cc-7a42-445a-824c-095b59a15585"
             method="POST"
-            className="p-6 flex flex-col gap-6"
+            className="p-6 max-sm:p-1 flex flex-col gap-6"
           >
             <div className="w-full flex gap-10 justify-between max-sm:flex-col">
               <input
@@ -116,7 +116,7 @@ const Contact = () => {
                   errClient
                     ? "border-red-600 focus-visible:border-red-600"
                     : "border-zinc-600 focus-visible:border-designColor"
-                }"w-full bg-transparent border-2 px-4 py-2 text-base max-sm:text-sm  outline-none duration-300
+                }"w-full bg-transparent border-2 px-4 max-sm:px-1 py-2 text-base max-sm:text-sm  outline-none duration-300
             "`}
                 type="text"
                 placeholder="Full Name"
@@ -128,7 +128,7 @@ const Contact = () => {
                   errEmail
                     ? "border-red-600 focus-visible:border-red-600"
                     : "border-zinc-600 focus-visible:border-designColor"
-                }"w-full bg-transparent border-2 px-4 py-2 max-sm:text-sm text-base text-gray-200  outline-none duration-300
+                }"w-full bg-transparent border-2 px-4 max-sm:px-1 py-2 max-sm:text-sm text-base text-gray-200  outline-none duration-300
             "`}
                 type="email"
                 placeholder="Email Address"
@@ -141,7 +141,7 @@ const Contact = () => {
                 errMessage
                   ? "border-red-600 focus-visible:border-red-600"
                   : "border-zinc-600 focus-visible:border-designColor"
-              }"w-full bg-transparent border-2 px-4 py-2 max-sm:text-sm text-base  outline-none duration-300 resize-none
+              }"w-full bg-transparent border-2 px-4 py-2 max-sm:px-1 max-sm:text-sm text-base  outline-none duration-300 resize-none
           "`}
               placeholder="Your Message"
               cols="30"
