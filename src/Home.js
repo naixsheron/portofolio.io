@@ -157,15 +157,17 @@ const Home = () => {
               Contact
             </span>
           </span>
-          <span className="w-full h-6 text-textColor text-xl max-sm:text-sm flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group ">
-            <BsTelephonePlusFill />
-            <span
-              className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
+          <a href="https://wa.me/0733025345">
+            <span className="w-full h-6 text-textColor text-xl max-sm:text-sm flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group ">
+              <BsTelephonePlusFill />
+              <span
+                className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
             group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
-            >
-              Call
+              >
+                Call
+              </span>
             </span>
-          </span>
+          </a>
         </div>
       </div>
       <div className="w-[94%] h-full bg-transparent flex items-center">

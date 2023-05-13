@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="lg:flex  pb-6 ">
-      <div className="w-full lg:w-1/2 text-zinc-400 p-6 borderRight  flex flex-col ">
+      <div className="w-full lg:w-1/2 text-zinc-400 p-6 max-sm:p-4 borderRight  flex flex-col ">
         <div className="py-6 lg:w-full">
           <h2 className=" font-semibold mb-1 text-lg">
             Hello! I'm Florin Gabor
@@ -17,7 +17,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 p-6 ">
+      <div className="w-full lg:w-1/2 p-6 max-sm:p-3 ">
         <ul>
           <li className="aboutRightLi">
             <span className="aboutRightSpan">Age: </span>
