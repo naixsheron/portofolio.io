@@ -30,9 +30,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-[85%] h-[85%] max-sm:w-[95%] max-sm:h-[90%] bg-transparent text-white z-50 flex items-start justify-between">
-      <div className="w-16 h-96 bg-transparent flex flex-col gap-4 max-sm:w-10 max-sm:mr-1 max-lg:w-10 max-lg:mr-1">
-        <div className="w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group max-sm:opacity-0">
+    <div className="w-[85%] h-[85%] max-lg:w-[95%] max-lg:h-[90%]  bg-transparent text-white z-50 flex items-start justify-between">
+      <div className="w-16 h-96 bg-transparent flex flex-col gap-4 max-sm:w-10 max-lg:h-80 max-sm:mr-1 max-lg:w-10 max-lg:mr-1">
+        <div className="w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group max-lg:opacity-0">
           <div
             onClick={() => setSidenav(true)}
             className="flex flex-col gap-1.5 overflow-hidden "
@@ -66,7 +66,7 @@ const Home = () => {
           </div>
         )}
         {/* end sidenav */}
-        <div className="w-full h-80  bg-bodyColor  rounded-3xl py-6 flex flex-col items-center justify-between">
+        <div className="w-full h-80  bg-bodyColor  rounded-3xl max-lg:py-3 py-6 flex flex-col items-center justify-evenly">
           <span
             onClick={() =>
               setAbout(true) &
@@ -80,7 +80,7 @@ const Home = () => {
             <FaUser />
             <span
               className="absolute text-black font-medium  text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
-            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
+            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 max-lg:group-hover:opacity-0"
             >
               Abouts
             </span>
@@ -98,7 +98,7 @@ const Home = () => {
             <IoIosPaper />
             <span
               className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
-            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
+            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 max-lg:group-hover:opacity-0"
             >
               Resume
             </span>
@@ -116,7 +116,7 @@ const Home = () => {
             <MdWork />
             <span
               className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
-            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
+            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 max-lg:group-hover:opacity-0"
             >
               Projects
             </span>
@@ -133,8 +133,8 @@ const Home = () => {
           >
             <SiGooglechat />
             <span
-              className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
-            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
+              className=" absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
+            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 max-lg:group-hover:opacity-0"
             >
               Blog
             </span>
@@ -152,7 +152,7 @@ const Home = () => {
             <FaEnvelope />
             <span
               className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
-            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
+            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 max-lg:group-hover:opacity-0"
             >
               Contact
             </span>
@@ -162,7 +162,7 @@ const Home = () => {
               <BsTelephonePlusFill />
               <span
                 className="absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8
-            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100"
+            group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 max-lg:group-hover:opacity-0"
               >
                 Call
               </span>
@@ -176,7 +176,7 @@ const Home = () => {
         <Left />
 
         {/* Right part start */}
-        <div className="max-sm:w-10/12 w-8/12 h-[95%] bg-bodyColor">
+        <div className="max-sm:w-9/12 w-8/12 h-[95%] bg-bodyColor">
           <div className="w-full h-[96%] overflow-y-scroll  scrollbar-thin scrollbar-thumb-[#646464]">
             {about && (
               <motion.div

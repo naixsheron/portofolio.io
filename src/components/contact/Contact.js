@@ -65,30 +65,30 @@ const Contact = () => {
   return (
     <div>
       <Title title="Get" subTitle="in Touch" />
-      <div className="p-6 flex justify-between gap-20 max-sm:block">
-        <div className="w-1/2 max-sm:w-full">
-          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc]  py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
+      <div className="p-6  flex justify-between gap-20 max-sm:block  max-lg:block">
+        <div className="w-1/2 max-lg:w-full">
+          <p className="flex justify-between w-full max-xl:text-sm  max-sm:text-xs text-lg text-[#ccc]  py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm max-xl:text-xs font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
               Address:
             </span>
             Oradea, Romania
           </p>
-          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
+          <p className="flex justify-between w-full max-xl:text-sm  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs max-xl:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
               Phone:
             </span>
             0733025345
           </p>
         </div>
-        <div className="w-1/2 max-sm:w-full">
-          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1  rounded-md flex items-center justify-center">
+        <div className="w-1/2 max-lg:w-full">
+          <p className="flex justify-between w-full max-xl:text-sm  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm max-xl:text-xs font-titleFont font-medium px-2 max-sm:px-1  rounded-md flex items-center justify-center">
               Email:
             </span>
             gaborf703@gmail.com
           </p>
-          <p className="flex justify-between w-full  max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
+          <p className="flex justify-between w-full max-xl:text-sm max-sm:text-xs text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+            <span className="bg-designColor text-gray-700 max-sm:text-xs text-sm max-xl:text-xs font-titleFont font-medium px-2 max-sm:px-1 rounded-md flex items-center justify-center">
               Work status:
             </span>
             Available
@@ -108,7 +108,7 @@ const Contact = () => {
             method="POST"
             className="p-6 max-sm:p-1 flex flex-col gap-6"
           >
-            <div className="w-full flex gap-10 justify-between max-sm:flex-col">
+            <div className="w-full flex gap-10 justify-between max-lg:flex-col">
               <input
                 onChange={handleName}
                 value={clientName}
@@ -116,7 +116,7 @@ const Contact = () => {
                   errClient
                     ? "border-red-600 focus-visible:border-red-600"
                     : "border-zinc-600 focus-visible:border-designColor"
-                }"w-full bg-transparent border-2 px-4 max-sm:px-1 py-2 text-base max-sm:text-sm  outline-none duration-300
+                }"w-full bg-transparent  border-2 px-4 max-sm:px-1 py-2 text-base max-sm:text-sm  outline-none duration-300
             "`}
                 type="text"
                 placeholder="Full Name"
