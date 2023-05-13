@@ -87,11 +87,12 @@ const Left = () => {
               <BsCloudLightningFill />
             </button>
           </a>
-
-          <button className="max-lg:w-full w-1/2 h-full flex justify-center items-center max-sm:border-zinc-800 max-sm:border-[1px] gap-2 border-t-[1px] border-t-zinc-800 max-sm:text-xs text-sm tracking-wide uppercase hover:text-designColor duration-300">
-            Contact me
-            <FiSend />
-          </button>
+          <a href="https://wa.me/400733025345">
+            <button className="max-lg:w-full w-1/2 h-full flex justify-center items-center max-sm:border-zinc-800 max-sm:border-[1px] gap-2 border-t-[1px] border-t-zinc-800 max-sm:text-xs text-sm tracking-wide uppercase hover:text-designColor duration-300">
+              Contact me
+              <FiSend />
+            </button>
+          </a>
         </div>
       </div>
     </div>

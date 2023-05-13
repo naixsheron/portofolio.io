@@ -157,7 +157,7 @@ const Home = () => {
               Contact
             </span>
           </span>
-          <a href="https://wa.me/0733025345">
+          <a href="https://wa.me/400733025345">
             <span className="w-full h-6 text-textColor text-xl max-sm:text-sm flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group ">
               <BsTelephonePlusFill />
               <span
