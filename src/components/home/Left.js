@@ -88,7 +88,7 @@ const Left = () => {
             </button>
           </a>
 
-          <button className="max-sm:w-full w-1/2 h-full flex justify-center items-center max-sm:border-zinc-800 border-[1px] gap-2 border-t-[1px] border-t-zinc-800 max-sm:text-xs text-sm tracking-wide uppercase hover:text-designColor duration-300">
+          <button className="max-sm:w-full w-1/2 h-full flex justify-center items-center max-sm:border-zinc-800 max-sm:border-[1px] gap-2 border-t-[1px] border-t-zinc-800 max-sm:text-xs text-sm tracking-wide uppercase hover:text-designColor duration-300">
             Contact me
             <FiSend />
           </button>
