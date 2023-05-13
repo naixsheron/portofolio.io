@@ -30,7 +30,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-[85%] h-[85%] bg-transparent text-white z-50 flex items-start justify-between">
+    <div className="w-[85%] h-[85%] max-sm:w-[95%] max-sm:h-[90%] bg-transparent text-white z-50 flex items-start justify-between">
       <div className="w-16 h-96 bg-transparent flex flex-col gap-4 max-sm:w-10 max-sm:mr-1 max-lg:w-10 max-lg:mr-1">
         <div className="w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group max-sm:opacity-0">
           <div

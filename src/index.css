@@ -20,7 +20,7 @@
     @apply border-[1px] border-zinc-800;
   }
   .aboutRightLi {
-    @apply text-zinc-400  max-sm:text-[9px] sm:text-[10px] lg:text-base max-sm:font-normal sm:font-semibold lg:font-bold flex justify-between items-center border-b-[1px] border-gray-800 max-sm:py-0.5 sm:py-1 lg:py-2;
+    @apply text-zinc-400  max-sm:text-[9px] sm:text-[10px] lg:text-base max-sm:font-normal sm:font-medium lg:font-semibold flex justify-between items-center border-b-[1px] border-gray-800 max-sm:py-0.5 sm:py-1 lg:py-2;
   }
   .aboutRightSpan {
     @apply bg-designColor text-black uppercase max-sm:px-1 max-sm:py-[2px] sm:px-2 sm:py-[2px] md:px-3 md:py-[3px] xl:px-4 xl:py-[4px] rounded-md;
