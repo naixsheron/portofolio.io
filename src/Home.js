@@ -31,8 +31,8 @@ const Home = () => {
 
   return (
     <div className="w-[85%] h-[85%] max-lg:w-[95%] max-lg:h-[90%]  bg-transparent text-white z-50 flex items-start justify-between">
-      <div className="w-16 h-96 bg-transparent flex flex-col gap-4 max-sm:w-10 max-lg:h-80 max-sm:mr-1 max-lg:w-10 max-lg:mr-1">
-        <div className="w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group max-lg:opacity-0">
+      <div className="w-16 h-96 bg-transparent  flex flex-col gap-4 max-sm:w-10 max-lg:h-80 max-sm:mr-1 max-lg:w-10 max-lg:mr-1">
+        <div className="w-full h-20 bg-bodyColor  rounded-3xl flex justify-center items-center cursor-pointer group max-lg:opacity-0">
           <div
             onClick={() => setSidenav(true)}
             className="flex flex-col gap-1.5 overflow-hidden "

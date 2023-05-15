@@ -9,7 +9,7 @@ import { profileImg } from "../../assets/index";
 
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Web Dev", "Front-End"],
+    words: ["JavaScript", "ReactJS", "NodeJS", "Html / Css"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
