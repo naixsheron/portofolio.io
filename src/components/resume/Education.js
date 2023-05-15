@@ -24,7 +24,7 @@ const Education = () => {
         <ResumeCard
           badge="2014 - 2018"
           title="Electronic Technician"
-          subtitle="Plexus SRL"
+          subtitle="Visual Digitech"
           des=" During my time at Samsung's mobile device division, I worked on repairing various phone models, including troubleshooting, diagnosing hardware and software issues, and performing repairs. I also collaborated with a team of technicians and engineers to improve repair processes and ensure customer satisfaction. This experience allowed me to gain extensive knowledge in mobile device technology and develop exceptional problem-solving skills in a fast-paced environment."
         />
       </div>
