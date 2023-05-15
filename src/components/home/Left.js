@@ -6,6 +6,7 @@ import { FiInstagram, FiSend } from "react-icons/fi";
 import CV from "../../assets/FlorinGabor.pdf";
 
 import { profileImg } from "../../assets/index";
+
 const Left = () => {
   const [text] = useTypewriter({
     words: ["Web Dev", "Front-End"],
@@ -87,8 +88,13 @@ const Left = () => {
               <BsCloudLightningFill />
             </button>
           </a>
-          <a href="https://wa.me/400733025345">
-            <button className="max-lg:w-full w-1/2 h-full flex justify-center items-center max-sm:border-zinc-800 max-sm:border-[1px] gap-2 border-t-[1px] border-t-zinc-800 max-sm:text-xs text-sm tracking-wide uppercase hover:text-designColor duration-300">
+          <a
+            className="max-lg:w-full w-1/2 h-full flex justify-center borderRight items-center gap-2 border-t-[1px] border-t-zinc-800 max-sm:text-xs text-sm tracking-wide uppercase hover:text-designColor duration-300"
+            href="https://www.linkedin.com/in/florin-gabor1987/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="w-full h-full flex justify-center items-center gap-2">
               Contact me
               <FiSend />
             </button>
