@@ -1,5 +1,6 @@
 import React from "react";
 import proiect1 from "../../assets/proiect1.jpg";
+import bee from "../../assets/bee.jpg";
 import Title from "../home/Title";
 import ProjectCard from "./ProjectCard";
 
@@ -15,6 +16,11 @@ const Projects = () => {
               category="E-commerce"
               image={proiect1}
             />
+          </a>
+        </div>
+        <div className="px-6">
+          <a href="https://albinadeaur1.onrender.com/">
+            <ProjectCard title="MERN App" category="E-commerce" image={bee} />
           </a>
         </div>
         <div className="px-6"></div>
