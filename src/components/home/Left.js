@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFacebook, BsCloudLightningFill } from "react-icons/bs";
 import { FiInstagram, FiSend } from "react-icons/fi";
-import CV from "../../assets/FlorinGabor.pdf";
+import CV from "../../assets/cv.pdf";
 
 import { profileImg } from "../../assets/index";
 
