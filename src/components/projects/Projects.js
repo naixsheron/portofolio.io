@@ -12,6 +12,13 @@ const Projects = () => {
       <div className="w-full grid grid-cols-2 max-sm:grid-cols-1 gap-10">
         <div className="px-6">
           <a
+            href="https://github.com/naixsheron/Arthas-gold-testing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GITHUB - view source code
+          </a>
+          <a
             href="https://gilded-cassata-988dcf.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -25,6 +32,13 @@ const Projects = () => {
         </div>
         <div className="px-6">
           <a
+            href="https://github.com/naixsheron/AlbinaDeAur"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GITHUB - view source code
+          </a>
+          <a
             href="https://albinadeaur1.onrender.com/"
             target="_blank"
             rel="noreferrer"
@@ -33,6 +47,13 @@ const Projects = () => {
           </a>
         </div>
         <div className="px-6">
+          <a
+            href="https://github.com/naixsheron/piataverde"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GITHUB - view source code
+          </a>
           <a
             href="https://brilliant-longma-b4a5cb.netlify.app/"
             target="_blank"
