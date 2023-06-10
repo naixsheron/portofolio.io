@@ -11,7 +11,11 @@ const Projects = () => {
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full grid grid-cols-2 max-sm:grid-cols-1 gap-10">
         <div className="px-6">
-          <a href="https://gilded-cassata-988dcf.netlify.app/" target="_blank">
+          <a
+            href="https://gilded-cassata-988dcf.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <ProjectCard
               title="React App"
               category="E-commerce"
@@ -20,7 +24,11 @@ const Projects = () => {
           </a>
         </div>
         <div className="px-6">
-          <a href="https://albinadeaur1.onrender.com/" target="_blank">
+          <a
+            href="https://albinadeaur1.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <ProjectCard title="MERN App" category="E-commerce" image={bee} />
           </a>
         </div>
@@ -28,6 +36,7 @@ const Projects = () => {
           <a
             href="https://brilliant-longma-b4a5cb.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <ProjectCard
               title="Small React App"
