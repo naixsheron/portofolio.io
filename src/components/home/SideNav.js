@@ -18,7 +18,27 @@ const SideNav = () => {
             className="cursor-pointer"
             href="https://gilded-cassata-988dcf.netlify.app/"
           >
-            E-commence{" "}
+            Arthas Gold
+          </a>
+        </li>
+        <li className="sidenavLi">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="cursor-pointer"
+            href="https://albinadeaur1.onrender.com/"
+          >
+            Albina de Aur
+          </a>
+        </li>
+        <li className="sidenavLi">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="cursor-pointer"
+            href="https://brilliant-longma-b4a5cb.netlify.app/"
+          >
+            Piata Verde
           </a>
         </li>
         <SidenavTitle title="Latest " subTitle="posts" />
